@@ -1,4 +1,5 @@
 :root {
+    --font: 'Oxygen', sans-serif;
     --background-color: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
     --button-color: #42E2B8;
     --headline-color: #42E2B8;
@@ -11,7 +12,8 @@ html {
 }
 
 body {
-    font-family: 'Oxygen', sans-serif;
+    font-family: var(--font);
+    background: var(--background-color);
 }
 
 h1 {
@@ -30,4 +32,27 @@ h2 {
 .wrapper {
     max-inline-size: 1350px;
     margin: 0 auto;
+}
+
+.green-button {
+    background-color: var(--button-color);
+    border: var(--border-button);
+    border-radius: 90px;
+}
+
+/* header section */
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-button {
+    inline-size: 150px;
+    block-size: 40px;
+    font-size: 1.4rem;
+}
+
+.header-content img {
+    width: 45px;
 }
