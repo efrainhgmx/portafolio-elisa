@@ -1,0 +1,33 @@
+:root {
+    --background-color: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+    --button-color: #42E2B8;
+    --headline-color: #42E2B8;
+    --border-button: 2px solid #0F0A0A;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5.9rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--headline-color);
+    background-color: #0F0A0A;
+    box-shadow: -4px 4px 1px 2px white;
+}
+
+.wrapper {
+    max-inline-size: 1350px;
+    margin: 0 auto;
+}
