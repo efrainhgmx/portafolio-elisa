@@ -29,6 +29,12 @@ h2 {
     box-shadow: -4px 4px 1px 2px white;
 }
 
+p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 .wrapper {
     max-inline-size: 1350px;
     margin: 0 auto;
@@ -55,4 +61,14 @@ h2 {
 
 .header-content img {
     width: 45px;
+}
+
+/* main section */
+.phone-contact::after {
+    content: '(629) 555-0129';
+    text-align: center;
+}
+
+.email-contact::after {
+    content: 'elisa@gmail.com';
 }
