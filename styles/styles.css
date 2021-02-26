@@ -18,7 +18,11 @@ body {
 
 h1 {
     font-weight: 700;
-    font-size: 5.9rem;
+    font-size: 6rem;
+}
+
+h1 span {
+    display: block;
 }
 
 h2 {
@@ -44,6 +48,7 @@ p {
     background-color: var(--button-color);
     border: var(--border-button);
     border-radius: 90px;
+    box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
 /* header section */
@@ -64,11 +69,28 @@ p {
 }
 
 /* main section */
-.phone-contact::after {
-    content: '(629) 555-0129';
-    text-align: center;
+#saludo {
+    font-size: 4.6rem;
 }
 
-.email-contact::after {
-    content: 'elisa@gmail.com';
+picture {
+    inline-size: 250px;
+}
+
+picture img {
+    width: 100%;
+}
+
+.social-media--container {
+    min-inline-size: 224px;
+}
+
+.social-media--icon:nth-of-type(2),
+.social-media--icon:nth-of-type(3),
+.social-media--icon:last-of-type {
+    margin-inline-start: 15px;
+}
+
+.social-media--icon img {
+    inline-size: 40px;
 }
