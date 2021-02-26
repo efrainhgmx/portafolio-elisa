@@ -49,6 +49,7 @@ a {
 .wrapper {
     max-inline-size: 1350px;
     margin: 0 auto;
+    padding-inline: 6px;
 }
 
 button {
@@ -81,7 +82,7 @@ button:hover {
 }
 
 .header-content img {
-    width: 45px;
+    width: 40px;
 }
 
 /* main section */
@@ -194,4 +195,9 @@ label span {
      border-radius: 25px;
      color: #0F0A0A;
      font-weight: 700;
+ }
+
+ /* Footer Section */
+ .footer-content {
+     text-align: center;
  }
