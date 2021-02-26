@@ -39,16 +39,34 @@ p {
     line-height: 26px;
 }
 
+a {
+    font-family: var(--font);
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #0F0A0A;
+    text-decoration: none;
+}
 .wrapper {
     max-inline-size: 1350px;
     margin: 0 auto;
 }
 
-.green-button {
-    background-color: var(--button-color);
+button {
+    block-size: 40px;
+    font-size: 1.4rem;
+    font-weight: 700;
     border: var(--border-button);
     border-radius: 90px;
+    background-color: transparent;
     box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.green-button {
+    background-color: var(--button-color);
 }
 
 /* header section */
@@ -60,8 +78,6 @@ p {
 
 .header-button {
     inline-size: 150px;
-    block-size: 40px;
-    font-size: 1.4rem;
 }
 
 .header-content img {
@@ -81,11 +97,13 @@ section:nth-of-type(2) {
     font-size: 4.6rem;
 }
 
-picture {
+picture, 
+figure {
     inline-size: 250px;
 }
 
-picture img {
+picture img,
+figure img {
     width: 100%;
 }
 
@@ -101,4 +119,28 @@ picture img {
 
 .social-media--icon img {
     inline-size: 40px;
+}
+
+.social-media--icon:hover {
+    cursor: pointer;
+}
+
+/* Projects section */
+figure {
+    margin: 0;
+}
+.project-button {
+    inline-size: 100%;
+    margin-block-end: 16px;
+}
+
+.github-icon--button {
+    display: inline-block;
+    inline-size: 25px;
+    block-size: 25px;
+    background-image: url(../assets/icons/icon-github.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
 }
