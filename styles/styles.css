@@ -166,3 +166,32 @@ article p:last-child {
     color: #0F0A0A;
     opacity: 0.5;
 }
+
+/* Seccion Contacto */
+form {
+    block-size: 433px;
+}
+label span {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+ input,
+ textarea {
+     box-sizing: border-box;
+     margin-block-start: 8px;
+     margin-block-end: 16px;
+     border: 1px solid #858C94;
+     inline-size: 100%;
+     min-inline-size: 227px;
+     border-radius: 9px;
+     padding: 12px;
+ }
+
+ input[type="submit"] {
+     border: var(--border-button);
+     border-radius: 25px;
+     color: #0F0A0A;
+     font-weight: 700;
+ }
