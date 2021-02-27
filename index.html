@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="./styles/desktop.css" media="(min-width: 768px)">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
     <title>Elisa - Diseñadora Web</title>
@@ -22,21 +23,23 @@
         <div class="wrapper">
             <div class="main-content">
                 <section class="section-container">
-                    <picture class="hero-image--container">
-                        <source srcset="./assets/img/elisa.png" media="(min-width: 768px)">
-                        <img src="./assets/img/elisa-mobile.png" alt="Elisa Diseñadora Web" title="Elisa Diseñadora Web">
-                    </picture>
-                    <div class="hero-content-cointainer">
-                        <h1>
-                            <span id="saludo">¡Hola a todos!</span>
-                            <span>Soy Elisa</span>
-                        </h1>
-                        <p>Una Diseñadora y desarrolladora web que le encanta implementar diseños que inspiran y atraen a las personas.</p>
-                        <div class="social-media--container">
-                            <i class="social-media--icon"><img src="./assets/icons/telefono.svg" alt="Telefono de contacto." title="Telfono de contacto."></i>
-                            <i class="social-media--icon"><img src="./assets/icons/email.svg" alt="Mail" title="Mail"></i>
-                            <i class="social-media--icon"><img src="./assets/icons/instagram.svg" alt="Instagram" title="Instagram"></i>
-                            <i class="social-media--icon"><img src="./assets/icons/twitter.svg" alt="Twitter" title="Twitter"></i>
+                    <div class="hero-container">
+                        <picture class="hero-image--container">
+                            <source srcset="./assets/img/elisa.png" media="(min-width: 768px)">
+                            <img src="./assets/img/elisa-mobile.png" alt="Elisa Diseñadora Web" title="Elisa Diseñadora Web">
+                        </picture>
+                        <div class="hero-content-container">
+                            <h1>
+                                <span id="saludo">¡Hola a todos!</span>
+                                <span>Soy Elisa</span>
+                            </h1>
+                            <p>Una Diseñadora y desarrolladora web que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+                            <div class="social-media--container">
+                                <i class="social-media--icon"><img src="./assets/icons/telefono.svg" alt="Telefono de contacto." title="Telfono de contacto."></i>
+                                <i class="social-media--icon"><img src="./assets/icons/email.svg" alt="Mail" title="Mail"></i>
+                                <i class="social-media--icon"><img src="./assets/icons/instagram.svg" alt="Instagram" title="Instagram"></i>
+                                <i class="social-media--icon"><img src="./assets/icons/twitter.svg" alt="Twitter" title="Twitter"></i>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -47,15 +50,17 @@
                 </section>
                 <section>
                     <div class="section-container">
-                        <figure class="project-image--container">
-                            <img src="./assets/img/mobile-laptop.png" alt="Proyecto leonidasesteban.com" title="Proyecto leonidasesteban.com">
-                        </figure>
-                        <div class="project-description--container">
-                            <h2>leonidasesteban.com</h2>
-                            <p>Accede a más de 120 proyectos que te ayudarán a amejorar tus habilidades como desarrollador Frontend.</p>
-                            <div class="proyect-button--container">
-                                <button class="project-button"><span class="github-icon--button"></span> Ver código</button>
-                                <button class="green-button project-button" ><a href="https://leonidasesteban.com/proyectos" rel="noopener">Ver proyectos</a></button>
+                        <div class="project-container">
+                            <figure class="project-image--container">
+                                <img src="./assets/img/mobile-laptop.png" alt="Proyecto leonidasesteban.com" title="Proyecto leonidasesteban.com">
+                            </figure>
+                            <div class="project-description--container">
+                                <h2>leonidasesteban.com</h2>
+                                <p>Accede a más de 120 proyectos que te ayudarán a amejorar tus habilidades como desarrollador Frontend.</p>
+                                <div class="proyect-button--container">
+                                    <button class="project-button"><span class="github-icon--button"></span> Ver código</button>
+                                    <button class="green-button project-button" ><a href="https://leonidasesteban.com/proyectos" rel="noopener">Ver proyectos</a></button>
+                                </div>
                             </div>
                         </div>
                         <article class="coment">
@@ -67,15 +72,17 @@
                         </article>
                     </div>
                     <div class="section-container">
-                        <figure class="project-image--container">
-                            <img src="./assets/img/iPad.png" alt="Proyecto Marvol" title="Proyecto Marvol">
-                        </figure>
-                        <div class="project-description--container">
-                            <h2>MARVOL</h2>
-                            <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.</p>
-                            <div class="proyect-button--container">
-                                <button class="project-button"><span class="github-icon--button"></span> Ver código</button>
-                                <button class="green-button project-button" ><a href="https://leonidasesteban.com/proyectos" rel="noopener">Ver proyectos</a></button>
+                        <div class="project-container">
+                            <figure class="project-image--container">
+                                <img src="./assets/img/iPad.png" alt="Proyecto Marvol" title="Proyecto Marvol">
+                            </figure>
+                            <div class="project-description--container">
+                                <h2>MARVOL</h2>
+                                <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.</p>
+                                <div class="proyect-button--container">
+                                    <button class="project-button"><span class="github-icon--button"></span> Ver código</button>
+                                    <button class="green-button project-button" ><a href="https://leonidasesteban.com/proyectos" rel="noopener">Ver proyectos</a></button>
+                                </div>
                             </div>
                         </div>
                         <article class="coment">
@@ -87,17 +94,20 @@
                         </article>
                     </div>
                     <div class="section-container">
-                        <figure class="project-image--container">
-                            <img src="./assets/img/IphoneX.png" alt="Proyecto Netnet" title="Proyecto NETNET">
-                        </figure>
-                        <div class="project-description--container">
-                            <h2>NETNET</h2>
-                            <p>Películas y series ilimitadas y mucho más.
-                                Disfruta donde quieras. Cancela cuando quieras.</p>
-                            <div class="proyect-button--container">
-                                <button class="project-button"><span class="github-icon--button"></span> Ver código</button>
-                                <button class="green-button project-button" ><a href="https://leonidasesteban.com/proyectos" rel="noopener">Ver proyectos</a></button>
+                        <div class="project-container">
+                            <figure class="project-image--container">
+                                <img src="./assets/img/IphoneX.png" alt="Proyecto Netnet" title="Proyecto NETNET">
+                            </figure>
+                            <div class="project-description--container">
+                                <h2>NETNET</h2>
+                                <p>Películas y series ilimitadas y mucho más.
+                                    Disfruta donde quieras. Cancela cuando quieras.</p>
+                                <div class="proyect-button--container">
+                                    <button class="project-button"><span class="github-icon--button"></span> Ver código</button>
+                                    <button class="green-button project-button" ><a href="https://leonidasesteban.com/proyectos" rel="noopener">Ver proyectos</a></button>
+                                </div>
                             </div>
+                            
                         </div>
                         <article class="coment">
                             <figure class="coment-user--image">

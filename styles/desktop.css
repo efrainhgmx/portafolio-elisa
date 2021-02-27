@@ -1,0 +1,98 @@
+/* Header section */
+.header-content img {
+    width: 50px;
+}
+
+/* Main content */
+.section-container {
+    margin-block-end: 95px;
+}
+
+.hero-container {
+    inline-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.hero-image--container {
+    inline-size: 650px;
+}
+
+.hero-content-container {
+    inline-size: 50%;
+}
+
+section:nth-of-type(2) {
+    padding: 75px;
+    margin: auto;
+}
+
+section:nth-of-type(2) p {
+    font-size: 2.4rem;
+    line-height: 45px;
+}
+
+/* Projects Section */
+.project-container {
+    inline-size: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+.project-container div:nth-of-type(2) {
+    flex-direction: initial;
+}
+
+.project-description--container {
+    inline-size: 50%;
+}
+
+.project-image--container {
+    inline-size: 580px;
+    margin-inline-start: 25px;
+}
+
+.coment {
+    margin-block-start: 45px;
+    padding: 60px;
+}
+
+article p {
+    font-size: 2.4rem;
+    line-height: 45px;
+}
+
+/* Contact section */
+section:last-of-type {
+    max-inline-size: 543px;
+    margin: auto;
+}
+
+form {
+    max-inline-size: 543px;
+    margin: auto;
+}
+
+input,
+textarea {
+    max-inline-size: 543px;
+}
+
+/* Footer Section */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-inline-end: 25px;
+    margin-block: 25px;
+}
+
+.footer-content p {
+    inline-size: 70%;
+}
