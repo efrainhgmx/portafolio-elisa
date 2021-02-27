@@ -1,6 +1,24 @@
+h2 {
+    display: inline-block;
+    padding: 8px;
+}
 /* Header section */
 .header-content img {
     width: 50px;
+}
+
+nav {
+    display: block;
+    align-self: center;
+}
+
+nav a {
+    margin-inline: 25px;
+    opacity: 0.5;
+}
+
+nav a:hover {
+    opacity: 1;
 }
 
 /* Main content */
@@ -14,6 +32,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
+    padding: 20px;
 }
 
 .hero-image--container {
@@ -55,6 +74,16 @@ section:nth-of-type(2) p {
 .project-image--container {
     inline-size: 580px;
     margin-inline-start: 25px;
+}
+
+.proyect-button--container {
+    max-inline-size: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.project-button {
+    margin-inline-end: 16px;
 }
 
 .coment {
