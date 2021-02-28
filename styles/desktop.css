@@ -1,7 +1,3 @@
-h2 {
-    display: inline-block;
-    padding: 8px;
-}
 /* Header section */
 .header-content img {
     width: 50px;
@@ -68,7 +64,7 @@ section:nth-of-type(2) p {
 }
 
 .project-description--container {
-    inline-size: 50%;
+    inline-size: 70%;
 }
 
 .project-image--container {
