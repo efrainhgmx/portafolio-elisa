@@ -28,7 +28,6 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
-    padding: 20px;
 }
 
 .hero-image--container {
