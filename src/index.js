@@ -10,3 +10,15 @@ if( hora >= 0 && hora < 13) {
 } else saludo = '¡Hola a todos!';
 
 document.getElementById('saludo').innerHTML = saludo;
+
+const button = document.getElementById('button');
+
+button.addEventListener("click", () => {
+    navigator.share({
+        title: "Portafolio Elisa",
+        text: "Conoce a Elisa una Diseñadora Web muy profesional con diseños muy inspiradores",
+        url: "https://efrainhgmx.github.io/portafolio-elisa/"
+    })
+    .then (() => console.log("Se compartio con exito!"))
+    .catch(() => console.error("Hubo un error!"));
+})
