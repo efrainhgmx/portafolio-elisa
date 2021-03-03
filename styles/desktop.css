@@ -35,7 +35,7 @@ nav a:hover {
 }
 
 .hero-content-container {
-    inline-size: 50%;
+    inline-size: 70%;
 }
 
 section:nth-of-type(2) {
@@ -48,6 +48,9 @@ section:nth-of-type(2) p {
     line-height: 45px;
 }
 
+.social-media--icon img {
+    inline-size: 45px;
+}
 /* Projects Section */
 .project-container {
     inline-size: 100%;
