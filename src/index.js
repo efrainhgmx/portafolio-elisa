@@ -1,3 +1,4 @@
+//Cambio de saludo dependiendo la hora del día.
 const hora = new Date().getHours();
 let saludo;
 
@@ -11,6 +12,7 @@ if( hora >= 0 && hora < 13) {
 
 document.getElementById('saludo').innerHTML = saludo;
 
+//Sharer web API, permite compatir de manera nativa.
 const button = document.getElementById('button');
 
 button.addEventListener("click", () => {
