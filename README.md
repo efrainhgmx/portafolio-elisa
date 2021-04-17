@@ -3,6 +3,8 @@ Portafolio de Elisa, una diseñadora web muy creativa y excelente haciendo proye
 
 - Proyecto 100% responsive.
 - Proyecto con excelete perfomance y accesibilidad.
+- Uso de **window.navigator** para compartir el website de manera nativa.
+- El saludo varía dependiendo la hora en la que es visualizado el website.
 
 
 ![Proyecto Elisa](./assets/img/readme.gif)
